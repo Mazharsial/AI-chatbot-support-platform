@@ -1,0 +1,38 @@
+# Secrets — NEVER commit these
+.env
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# AI model cache (large files)
+.cache/
+models/
+
+# ChromaDB local storage
+chroma_db/
+
+# Logs
+*.log
+logs/
