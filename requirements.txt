@@ -6,10 +6,12 @@ python-multipart==0.0.9
 # ── Telegram Bot ──────────────────────────────────────────────
 python-telegram-bot==21.3
 
-# ── AI / LLM (Free Groq API) ──────────────────────────────────
+# ── AI / LLM ──────────────────────────────────────────────────
 groq==0.9.0
+openai==1.35.0
+google-genai==0.3.0
 
-# ── Local Embeddings & Vector Search (100% free, offline) ─────
+# ── Local Embeddings & Vector Search (free, offline) ──────────
 sentence-transformers==3.0.1
 chromadb==0.5.3
 
@@ -27,8 +29,9 @@ python-dotenv==1.0.1
 pydantic==2.8.2
 pydantic-settings==2.3.4
 
-# ── Utilities ─────────────────────────────────────────────────
+# ── Security ──────────────────────────────────────────────────
 python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
 
+# ── Production Server ─────────────────────────────────────────
 gunicorn==21.2.0
